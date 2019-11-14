@@ -253,11 +253,14 @@ p, address {
 
 .tm-header-inner {
   padding: 40px 50px;
+  box-shadow: inset 1px 2000px rgba(142, 150, 131, 0.486);
+  border-radius: 40px;
 }
 
 @media (max-width: 991px) {
   .tm-header-inner {
     padding: 30px 15px;
+    box-shadow: inset 1px 2000px rgba(142, 150, 131, 0.486);
   }
 }
 
@@ -274,11 +277,16 @@ p, address {
   font-size: 2.2rem;
   font-weight: 400;
   margin-bottom: 5px;
+  font-family: 'Great Vibes', cursive;
+  text-shadow: 2px 2px black;
 }
 
 .tm-site-description {
   font-size: 1.1rem;
   font-weight: 400;
+  color: black;
+  font-style: italic;
+  text-shadow: 4px 3px 4px white;
 }
 
 .tm-nav {
