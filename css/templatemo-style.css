@@ -253,14 +253,15 @@ p, address {
 
 .tm-header-inner {
   padding: 40px 50px;
-  box-shadow: inset 1px 2000px rgba(142, 150, 131, 0.486);
-  border-radius: 40px;
+  box-shadow: inset 1px 2000px rgba(180, 177, 160, 0.486);
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 @media (max-width: 991px) {
   .tm-header-inner {
     padding: 30px 15px;
-    box-shadow: inset 1px 2000px rgba(142, 150, 131, 0.486);
+    box-shadow: inset 1px 2000px rgba(145, 136, 89, 0.486);
   }
 }
 
@@ -482,6 +483,7 @@ p, address {
 .tm-footer {
   padding: 25px 15px;
   margin-top: 40px;
+  background-color: rgb(172, 201, 172);
 }
 
 .tm-footer a {
