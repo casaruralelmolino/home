@@ -421,6 +421,7 @@ p, address {
   display: inline-block;
   border: 1px solid #2F956D;
   margin: 7px;
+  border-radius: 20px;
 }
 
 .tm-paging-link {
@@ -436,6 +437,7 @@ p, address {
 .tm-paging-link.active,
 .tm-paging-link:hover {
   background-color: #2F956D;
+  border-radius: 16px;
   color: white;
 }
 
