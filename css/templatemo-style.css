@@ -253,7 +253,6 @@ p, address {
 
 .tm-header-inner {
   padding: 40px 50px;
-  box-shadow: inset 1px 2000px rgba(180, 177, 160, 0.486);
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -261,7 +260,6 @@ p, address {
 @media (max-width: 991px) {
   .tm-header-inner {
     padding: 30px 15px;
-    box-shadow: inset 1px 2000px rgba(145, 136, 89, 0.486);
   }
 }
 
